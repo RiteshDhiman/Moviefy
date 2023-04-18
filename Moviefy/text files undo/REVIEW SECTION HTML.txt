@@ -1,0 +1,55 @@
+<!--REVIEW SECTION-->
+
+      <div class="review">
+        <h2>REVIEW</h2>
+      </div>
+
+      <div class="cardd">
+        <div class="a">
+          <div class="subcard1">
+            <div class="subsubcard11">
+              <img src="images/images.png" />
+            </div>
+            <div class="subsubcard12">
+              <h3>Ritesh Dhiman</h3>
+            </div>
+          </div>
+          <div class="subcard2">
+            <div class="subsubcard2">
+              <p>Very Good Movie! Must watch! Great Service!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="a">
+          <div class="subcard1">
+            <div class="subsubcard11">
+              <img src="images/images.png" />
+            </div>
+            <div class="subsubcard12">
+              <h3>Piha Gupta</h3>
+            </div>
+          </div>
+          <div class="subcard2">
+            <div class="subsubcard2">
+              <p>Very Bad Movie! Not a Must watch! Bad Service!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="a">
+          <div class="subcard1">
+            <div class="subsubcard11">
+              <img src="images/images.png" />
+            </div>
+            <div class="subsubcard12">
+              <h3>Lakshay Yadav</h3>
+            </div>
+          </div>
+          <div class="subcard2">
+            <div class="subsubcard2">
+              <p>Very Good Movie! Must watch! Great Service!</p>
+            </div>
+          </div>
+        </div>
+      </div>

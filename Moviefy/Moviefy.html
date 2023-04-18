@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style4.css">
+  <title>Moviefy-Movie Tickets</title>
+</head>
+
+<body>
+  <div class="main">
+  <header>
+    <nav>
+      <div class="logo">  
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="http://localhost:8080/durgesh/loginPage">Login</a>
+            <a href = "#" onclick="document.getElementById('id01').style.display='block'">Register</a>
+            <a href="primeMembership.html">Prime Membership</a>
+            <a href="Clients.html">Clients</a>
+            <a href="about.html">About</a>
+          </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="ham">&#9776; </span>
+
+        <img src="images/moviefy_logo.jpeg" alt="moviefy_logo" width="120" height="75">
+
+<!--------------------------------------SIDE BAR------------------------------------------>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+
+  <form class="modal-content" action="/action_page.php">
+
+    <div class="container">
+      <h1>Sign Up</h1>
+      <hr />
+      
+      <label for="fullname"><b>Full Name</b></label>
+      <input type="text" placeholder="Enter Full Name" name="fullname" required />
+
+      <label for="email"><b>E-Mail Id</b></label>
+      <input type="text" placeholder="Enter E-Mail Id" name="email" required />
+
+      <label for="phonenumber"><b>Phone Number</b></label>
+      <input type="text" placeholder="Enter Phone Number" name="phonenumber" required />
+
+      <label for="address"><b>Address</b></label>
+      <input type="text" placeholder="Enter Address" name="address" required />
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required/>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required/>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px"/>Remember me</label>
+
+      <div class="clearfix">
+        <button type="submit" class="signup">Sign Up</button>
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!--------------------------------------SEARCH BOX------------------------------------------>
+
+          <div class="searchBox">
+            <form action="" class = "search" method="get">
+                <input type="text" class="search__input" name = "movieNaam" placeholder="Enter the Movie Name.....">
+                <button class="search__button"><img src="images/search.png"></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <a href="all.html">
+      <p class="all">All</p>
+    </a>
+    <a href="home.html">
+      <p>Home</p>
+    </a>
+    <a href="new release.html">
+      <p>New Releases</p>
+    </a>
+    <a href="offers.html">
+      <p>Offers</p>
+    </a>
+    <a href="trending">
+      <p>Trending</p>
+    </a>
+    <a href="upcoming.html">
+      <p>Upcoming</p>
+    </a>
+    <a href="about.html">
+      <p>About</p>
+    </a>
+  </div>
+
+<!--------------------------------------NEW RELEASES-------------------------------------------->
+
+  <div class="release">
+    <h2>New Releases</h2>
+  </div>
+
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/pihaImages/thor.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/pihaImages/madmax.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/pihaImages/war.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div class = "threeDotsReleases" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+<!--------------------------------------OFFERS SECTION-------------------------------------------->
+  <div class="bekar"></div>
+  <div class="offers">
+    <h2>Offers</h2>
+  </div>
+  
+  <div class="offers2">
+
+    <div class="cardOffer">
+      <img src="images/pihaImages/pop.jpg" alt="Avatar">
+      <div class="container">
+        <h4>Free Popcorn</h4>
+        <p>For 500 above purchase</p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+
+    <div class="cardOffer">
+      <img src="images/pihaImages/ticket1.jpg" alt="Avatar">
+      <div class="container">
+        <h4>Buy 3 Get 1 </h4>
+        <p>Buy 3 tickets and get 1 free</p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+
+    <div class="cardOffer">
+      <img src="images/pihaImages/popcorn.webp" alt="Avatar">
+      <div class="container">
+        <h4>Free Popcorn Tub</h4>
+        <p>For Gold members only</p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+  </div>
+
+<!--------------------------------------NOW SHOWING-------------------------------------------->
+
+  <div class="offers">
+    <h2>Now Showing</h2>
+  </div>
+
+  <div class="offers2">
+    <div class="card">
+      <a href="second.html">
+      <img src="images/pihaImages/tabu.jpg" alt="Avatar">
+      </a>
+    </div>
+
+    <div class="card1">
+      <a href="second.html">
+      <img src="images/pihaImages/jorassic.jpg" alt="Avatar" height="359" width="265">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="second.html">
+      <img src="images/pihaImages/airlift.jpg" alt="Avatar" width="240" height="302">
+      </a>
+    </div>
+  </div>
+  <!-- </div> -->
+  <!-- <div class="dots1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="three-dots1"
+      viewBox="0 0 16 16">
+      <path
+        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+    </svg>
+  </div> -->
+
+  <div class = "threeDotsReleases" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+<!--------------------------------------TRENDING SECTION-------------------------------------------->
+
+<div class="bekar"></div>
+  <div class="offers">
+    <h2>Trending</h2>
+  </div>
+
+  <div class="offers2">
+    <div class="card">
+      <a href="second.html">
+      <img src="images/pihaImages/avengers.jpg" alt="Avatar" height="304" width="240">
+      </a>
+    </div>
+
+    <div class="card1">
+      <a href="second.html">
+      <img src="images/pihaImages/avatar.jpg" alt="Avatar" height="359" width="265">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="second.html">
+      <img src="images/pihaImages/master.jpg" alt="Avatar" width="240" height="304">
+      </a>
+    </div>
+  </div>
+  <!-- </div> -->
+  <!-- <div class="dots1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="three-dots1"
+      viewBox="0 0 16 16">
+      <path
+        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+    </svg>
+  </div> -->
+
+  <div class = "threeDotsReleases" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+<!--------------------------------------UPCOMING SECTION-------------------------------------------->
+
+<div class="bekar"></div>
+  <div class="offers">
+    <h2>Upcoming</h2>
+  </div>
+
+  <div class="offers2">
+    <div class="card">
+      <a href="second.html">
+      <img src="images/pihaImages/beast.jpg" alt="Avatar" height="305" width="240">
+      </a>
+    </div>
+
+    <div class="card1">
+      <a href="second.html">
+      <img src="images/pihaImages/popeye.jpg" alt="Avatar" height="359" width="265">
+      </a>  
+    </div>
+
+    <div class="card">
+      <a href="second.html">
+      <img src="images/pihaImages/X-Men_-_Apocalypse.jpg" alt="Avatar" width="240" height="304">
+      </a>
+    </div>
+  </div>
+  <!-- </div>
+  <div class="dots1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="three-dots1"
+      viewBox="0 0 16 16">
+      <path
+        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+    </svg>
+  </div> -->
+
+  <div class = "threeDotsReleases" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="blank"></div> 
+
+<!--------------------------------------FOOTER SECTION-------------------------------------------->
+
+  <div class="footer">
+    <div class="general">
+      <p><i>GENERAL</i></p>
+      <br />
+      <ul>
+        <li>ABOUT US</li>
+        <li>FAQ'S</li>
+        <li>INVESTOR'S SECTION</li>
+        <li>CAREER</li>
+        <li>NEWS</li>
+        <li>FEEDBACK</li>
+      </ul>
+    </div>
+
+    <div class="threeLinks">
+      <div class="foLink">Terms & Conditions</div>
+      <div class="foLink">Privacy Policy</div>
+      <div class="foLink">Terms of Use</div>
+    </div>
+
+    <div class="contact"><i>CONTACT US</i></div>
+
+    <div class="contactUs">
+      <div class="logo1"><a href = "#"><img src="/images/logo/1082444_facebook_social media_website_icon.png"></a></div>
+      <div class="logo1"><a href = "#"><img src="/images/logo/Google_Plus_logo_(2015-2019).svg.png"></a></div>
+      <div class="logo1"><a href = "#"><img src="/images/logo/3670147.png"></a></div>
+      <div class="logo1"><a href = "#"><img src="/images/logo/png-transparent-twitter-logo-icon-twitter-file-logo-social-media-news-thumbnail.png"></a></div>
+      <div class="logo1"><a href = "#"><img src="/images/logo/instagram-icon-logo-free-png.webp"></a></div>
+      <div class="logo1"><a href = "#"><img src="/images/logo/linkedin-icon-512x512-vkm0drb1.png"></a></div>
+    </div>
+  </div>
+</div>
+  <script src="js/jsMoviefy.js"></script>
+  <script href = "js/script.js"></script>
+</body>
+
+</html>
+

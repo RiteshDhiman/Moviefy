@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="css/second.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!--MOVIEFY HEADING-->
+
+      <div class="heading">
+        <img src="images/logo-color.png" class="mainlogo" />
+      </div>
+
+      <!--BLUR MAIN IMAGE-->
+
+      <div class="blurBg">
+        <img src="/images/Master-Movie-Release-Posters-HD-05e1ab1.jpg" />
+
+        <!--OVERLAY-->
+
+        <div class="overlay">
+          <!--OV PHOTO-->
+
+          <div class="ovDP">
+            <img src="/images/download.jpeg" />
+          </div>
+
+          <!--OV INFO-->
+
+          <div class="ovInfo">
+            <div class="movieName">
+              <p>MASTER</p>
+            </div>
+            <div class="rating">
+              <div class="ratingStar">
+                <img src="/images/star.png" />
+              </div>
+              <div class="ratingNo">
+                <p>8/10</p>
+              </div>
+            </div>
+            <div class="buttonHub">
+              <button class="trailer">TRAILER</button>
+              <button class="book">BOOK</button>
+            </div>
+            <div class="showing">
+              <p>Now Showing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--ABOUT SECTION-->
+
+      <div class="about">
+        <h2>ABOUT</h2>
+        <br />
+        <p>
+          An alcoholic professor is sent to a juvenile school, where he clashes
+          with a gangster, who uses the children of the school for criminal
+          activities.
+        </p>
+      </div>
+
+      <!--CAST SECTION-->
+
+      <div class="cast">
+        <h2>CAST</h2>
+        <div class="cast1">
+          <div class="slide">
+            <img src="/images/Phoebe-Buffay-Quotes-From-Friends.webp" />
+          </div>
+          <div class="slide">
+            <img src="/images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" />
+          </div>
+          <div class="slide">
+            <img src="/images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" />
+          </div>
+          <div class="slide">
+            <img src="/images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" />
+          </div>
+          <div class="slide">
+            <img
+              src="/images/blogs-the-feed-how-i-met-your-mother-barney-stinson.webp"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!--REVIEW SECTION-->
+
+      <div class="review">
+        <h2>REVIEW</h2>
+      </div>
+
+      <div class="cardd">
+        <div class="a">
+          <div class="subcard1">
+            <div class="subsubcard11">
+              <img src="images/images.png" />
+            </div>
+            <div class="subsubcard12">
+              <h3>Ritesh Dhiman</h3>
+            </div>
+          </div>
+          <div class="subcard2">
+            <div class="subsubcard2">
+              <p>Very Good Movie! Must watch! Great Service!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="a">
+          <div class="subcard1">
+            <div class="subsubcard11">
+              <img src="images/images.png" />
+            </div>
+            <div class="subsubcard12">
+              <h3>Piha Gupta</h3>
+            </div>
+          </div>
+          <div class="subcard2">
+            <div class="subsubcard2">
+              <p>Very Bad Movie! Not a Must watch! Bad Service!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="a">
+          <div class="subcard1">
+            <div class="subsubcard11">
+              <img src="images/images.png" />
+            </div>
+            <div class="subsubcard12">
+              <h3>Lakshay Yadav</h3>
+            </div>
+          </div>
+          <div class="subcard2">
+            <div class="subsubcard2">
+              <p>Very Good Movie! Must watch! Great Service!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--FOOTER-->
+
+      <div class="footer">
+        <div class="general">
+          <p><i>GENERAL</i></p>
+          <br />
+          <ul>
+            <li>ABOUT US</li>
+            <li>FAQ'S</li>
+            <li>INVESTOR'S SECTION</li>
+            <li>CAREER</li>
+            <li>NEWS</li>
+            <li>FEEDBACK</li>
+          </ul>
+        </div>
+
+        <div class="threeLinks">
+          <div class="foLink">Terms & Conditions</div>
+          <div class="foLink">Privacy Policy</div>
+          <div class="foLink">Terms of Use</div>
+        </div>
+
+        <div class="contact"><i>CONTACT US</i></div>
+
+        <div class="contactUs">
+          <div class="logo"><a href = "#"><img src="/images/logo/1082444_facebook_social media_website_icon.png"></a></div>
+          <div class="logo"><a href = "#"><img src="/images/logo/Google_Plus_logo_(2015-2019).svg.png"></a></div>
+          <div class="logo"><a href = "#"><img src="/images/logo/3670147.png"></a></div>
+          <div class="logo"><a href = "#"><img src="/images/logo/png-transparent-twitter-logo-icon-twitter-file-logo-social-media-news-thumbnail.png"></a></div>
+          <div class="logo"><a href = "#"><img src="/images/logo/instagram-icon-logo-free-png.webp"></a></div>
+          <div class="logo"><a href = "#"><img src="/images/logo/linkedin-icon-512x512-vkm0drb1.png"></a></div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

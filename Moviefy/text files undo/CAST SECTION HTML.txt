@@ -1,0 +1,24 @@
+<!--CAST SECTION-->
+
+      <div class="cast">
+        <h2>CAST</h2>
+        <div class="cast1">
+          <div class="slide">
+            <img src="/images/Phoebe-Buffay-Quotes-From-Friends.webp" />
+          </div>
+          <div class="slide">
+            <img src="/images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" />
+          </div>
+          <div class="slide">
+            <img src="/images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" />
+          </div>
+          <div class="slide">
+            <img src="/images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" />
+          </div>
+          <div class="slide">
+            <img
+              src="/images/blogs-the-feed-how-i-met-your-mother-barney-stinson.webp"
+            />
+          </div>
+        </div>
+      </div>

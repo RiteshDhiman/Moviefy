@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+      <a href = "#" onclick="document.getElementById('id01').style.display='block'">Balle Balle</a>
+
+      <div class="image">
+        <!-- <img src="images/logo-color.png" alt=""> -->
+      </div>
+
+
+      <!-- The Modal -->
+
+
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+
+        <form class="modal-content" action="/action_page.php">
+
+          <div class="container">
+            <h1>Sign Up</h1>
+            <hr />
+            
+            <label for="fullname"><b>Full Name</b></label>
+            <input type="text" placeholder="Enter Full Name" name="fullname" required />
+
+            <label for="email"><b>E-Mail Id</b></label>
+            <input type="text" placeholder="Enter E-Mail Id" name="email" required />
+
+            <label for="phonenumber"><b>Phone Number</b></label>
+            <input type="text" placeholder="Enter Phone Number" name="phonenumber" required />
+
+            <label for="address"><b>Address</b></label>
+            <input type="text" placeholder="Enter Address" name="address" required />
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required/>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required/>
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px"/>Remember me</label>
+
+            <div class="clearfix">
+              <button type="submit" class="signup">Sign Up</button>
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script href = "js/script.js"></script>
+  </body>
+</html>

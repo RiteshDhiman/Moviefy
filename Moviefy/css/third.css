@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: black;
+}
+.heading{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading img{
+    height: 10vh;
+}
+.imgContainer{
+    width: 100%;
+    height: 70vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border: 0 0 5px 0 solid white;
+}
+.imgC{
+    width: 85%;
+    height: 95%;
+    background-color: white;
+    border-radius: 60px;
+}
+.imgC img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    opacity: 0.95;
+}
+
+/*Search Box*/
+
+/* .searchBox{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input::-webkit-input-placeholder{
+    font-weight: 400;
+    color: grey;
+}
+.search input{
+    width: 100%;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    margin-right: -3.25rem;
+}
+.search input:hover{
+    background-color: rgb(240, 240, 240);
+    transition: background-color 300ms;
+    transition-timing-function: linear;
+}
+.search button{
+    border: none;
+}
+.search img{
+    background-color: white;
+    height: 1.75rem;
+    width: 1.75rem;
+} */
+
+.filterBy{
+    width: 100%;
+    height: 10vh;
+    /* background-color: black;
+     */
+     /* background-color: red; */
+     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab{
+    width: 30%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.leftButt, .rightButt{
+    height: 80%;
+    width: 5%;
+    border: none;
+        /* background-color: red; */
+
+}
+.leftButt img, .rightButt img{
+    width: 100%;
+    height: 100%;
+    filter: invert(100%);
+    /* background-color: red; */
+
+}
+.leftButt img{
+    transform: rotate(180deg);
+}
+.filter{
+    width: 100px;
+    padding-left: 50px;
+}

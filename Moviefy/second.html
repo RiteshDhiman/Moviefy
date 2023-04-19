@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
 
-    <!--SWIPER CSS-->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!--CHORI KI CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle1.min.css"/>
 
     <!--MAIN CSS-->
     <link rel="stylesheet" href="css/second.css" />
@@ -100,7 +100,7 @@
 
       <div class="cast">
         <h2>CAST</h2>
-        <div class="slide-container">
+        <!-- <div class="slide-container">
           <span class="slider-span" id="slider-span1"></span>
           <span class="slider-span" id="slider-span2"></span>
           <span class="slider-span" id="slider-span3"></span>
@@ -153,6 +153,48 @@
               <img src="images/ross.webp" alt="" class="img" id="img7" />
               <a href="#slider-span7" class="button" id="button-7"></a>
             </div>
+          </div>
+        </div> -->
+
+
+        <!--EXPERIMENTAL-->
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+              <img src="images/chandler.jpg" alt="Avatar" class = "cardImage">
+              <!-- <span class="kabaad">Chandler Bing</span> -->
+            </div>
+      
+            <div class="card swiper-slide">
+              <img src="images/ross.webp" alt="Avatar" class = "cardImage">
+            </div>
+      
+            <div class="card swiper-slide">
+              <img src="images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" alt="Avatar" class = "cardImage">
+            </div>
+      
+            <div class="card swiper-slide">
+              <img src="images/blogs-the-feed-how-i-met-your-mother-barney-stinson.webp" alt="Avatar" class = "cardImage">
+            </div>
+      
+            <div class="card swiper-slide">
+              <img src="images/Phoebe-Buffay-Quotes-From-Friends.webp" alt="Avatar" class = "cardImage">
+            </div>
+      
+            <div class="card swiper-slide">
+              <img src="images/Rachel.webp" alt="Avatar" class = "cardImage">
+            </div>
+          </div>
+      
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
@@ -286,5 +328,31 @@
       }
       </script>
     <script href="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: false,
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   </body>
 </html>

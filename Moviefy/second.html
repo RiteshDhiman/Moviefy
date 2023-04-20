@@ -7,7 +7,7 @@
     <title>About</title>
 
     <!--CHORI KI CSS-->
-    <link rel="stylesheet" href="css/swiper-bundle1.min.css"/>
+    <link rel="stylesheet" href="css/swiper-bundle1.min.css" />
 
     <!--MAIN CSS-->
     <link rel="stylesheet" href="css/second.css" />
@@ -15,10 +15,16 @@
 
   <body>
     <div class="main">
-<!--------------------------------------MOVIEFY HEADING-------------------------------------------->
+      <!--------------------------------------MOVIEFY HEADING-------------------------------------------->
 
       <div class="heading">
-        <img src="images/logo-color.png" class="mainlogo" />
+        <a href="Moviefy.html"><div class="homeReturn">
+          <h2>Home</h2>
+        </div></a>
+        <div class="headImg">
+          <img src="images/logo-color.png" class="mainlogo" />
+        </div>
+        <div class="headBlank"></div>
       </div>
 
       <!--BLUR MAIN IMAGE-->
@@ -50,11 +56,11 @@
               </div>
             </div>
             <div class="buttonHub">
-              <button class="trailer" onclick = "location.href='#vidPlay'">TRAILER</button>
-              <button class="book" onclick = "location.href='#'">BOOK</button>
-              <form>
-                
-              </form>
+              <button class="trailer" onclick="location.href='#vidPlay'">
+                TRAILER
+              </button>
+              <button class="book" onclick="location.href='#'">BOOK</button>
+              <form></form>
             </div>
             <div class="showing">
               <p>Now Showing</p>
@@ -69,7 +75,11 @@
         <div class="trailerHeading">
           <h3>TRAILER</h3>
 
-          <div class="butt"><button onclick="openFullscreen();" class = "fullScreen">Fullscreen Mode</button></div>
+          <div class="butt">
+            <button onclick="openFullscreen();" class="fullScreen">
+              Fullscreen Mode
+            </button>
+          </div>
           <iframe
             width="560"
             height="315"
@@ -78,12 +88,12 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-            id = "myvideo"
+            id="myvideo"
           ></iframe>
         </div>
       </div>
 
-<!----------------------------------------ABOUT SECTION-------------------------------------------->
+      <!----------------------------------------ABOUT SECTION-------------------------------------------->
 
       <div class="about">
         <h2>ABOUT</h2>
@@ -95,8 +105,7 @@
         </p>
       </div>
 
-<!-----------------------------------------CAST SECTION-------------------------------------------->
-
+      <!-----------------------------------------CAST SECTION-------------------------------------------->
 
       <div class="cast">
         <h2>CAST</h2>
@@ -156,37 +165,48 @@
           </div>
         </div> -->
 
-
         <!--EXPERIMENTAL-->
 
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="card swiper-slide">
-              <img src="images/chandler.jpg" alt="Avatar" class = "cardImage">
+              <img src="images/chandler.jpg" alt="Avatar" class="cardImage" />
               <!-- <span class="kabaad">Chandler Bing</span> -->
             </div>
-      
+
             <div class="card swiper-slide">
-              <img src="images/ross.webp" alt="Avatar" class = "cardImage">
+              <img src="images/ross.webp" alt="Avatar" class="cardImage" />
             </div>
-      
+
             <div class="card swiper-slide">
-              <img src="images/Matt_LeBlanc_as_Joey_Tribbiani.jpg" alt="Avatar" class = "cardImage">
+              <img
+                src="images/Matt_LeBlanc_as_Joey_Tribbiani.jpg"
+                alt="Avatar"
+                class="cardImage"
+              />
             </div>
-      
+
             <div class="card swiper-slide">
-              <img src="images/blogs-the-feed-how-i-met-your-mother-barney-stinson.webp" alt="Avatar" class = "cardImage">
+              <img
+                src="images/blogs-the-feed-how-i-met-your-mother-barney-stinson.webp"
+                alt="Avatar"
+                class="cardImage"
+              />
             </div>
-      
+
             <div class="card swiper-slide">
-              <img src="images/Phoebe-Buffay-Quotes-From-Friends.webp" alt="Avatar" class = "cardImage">
+              <img
+                src="images/Phoebe-Buffay-Quotes-From-Friends.webp"
+                alt="Avatar"
+                class="cardImage"
+              />
             </div>
-      
+
             <div class="card swiper-slide">
-              <img src="images/Rachel.webp" alt="Avatar" class = "cardImage">
+              <img src="images/Rachel.webp" alt="Avatar" class="cardImage" />
             </div>
           </div>
-      
+
           <div class="tranding-slider-control">
             <div class="swiper-button-prev slider-arrow">
               <ion-icon name="arrow-back-outline"></ion-icon>
@@ -199,8 +219,7 @@
         </div>
       </div>
 
-<!--------------------------------------REVIEW SECTION-------------------------------------------->
-
+      <!--------------------------------------REVIEW SECTION-------------------------------------------->
 
       <div class="review">
         <h2>REVIEW</h2>
@@ -256,8 +275,7 @@
         </div>
       </div>
 
-<!---------------------------------------------FOOTER--------------------------------------------->
-
+      <!---------------------------------------------FOOTER--------------------------------------------->
 
       <div class="footer">
         <div class="general">
@@ -320,39 +338,41 @@
       function openFullscreen() {
         if (elem.requestFullscreen) {
           elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) { /* Safari */
+        } else if (elem.webkitRequestFullscreen) {
+          /* Safari */
           elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) { /* IE11 */
+        } else if (elem.msRequestFullscreen) {
+          /* IE11 */
           elem.msRequestFullscreen();
         }
       }
-      </script>
+    </script>
     <script href="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      loop: false,
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: false,
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
 
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 300,
-        modifier: 1,
-        slideShadows: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 300,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>

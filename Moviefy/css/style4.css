@@ -7,9 +7,11 @@
 .main{
   background-color: black;
 }
-/* body{
-  background-color: black;
-} */
+html{
+  /* background-color: black; */
+  scroll-behavior: smooth;
+}
+
 nav {
   display: flex;
   background-color: black;
@@ -147,13 +149,17 @@ display: inline-block;
 border: none;
 background: #4a48485b;
 border-radius: 50px;
-color: black;
+color: white;
+font-size: 1.1rem;
+font-family: podkova;
+font-style: italic;
 }
 
 /* Add a background color when the inputs get focus */
 input[type=text]:focus, input[type=password]:focus {
 background-color: #4a484893;
 border: 1px solid white;
+color: white;
 }
 
 input[type=text]:hover, input[type=password]:hover {
@@ -253,6 +259,7 @@ margin-bottom: 25px;
 .close:focus {
 color: #f44336;
 cursor: pointer;
+/* transform: rotate(180deg); */
 }
 
 
